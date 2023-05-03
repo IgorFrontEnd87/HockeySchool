@@ -7,22 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class DatabaseService {
 
-  
-
   constructor(private db: AngularFirestore) {}
 
-
-  /* getCategories(): Observable<any[]> {
-    return this.db.collection('categories').valueChanges({idField: 'id'});
-  }
-
-  getCategory(id: string): Observable<any> {
-    return this.db.collection('categories').doc(id).valueChanges({idField: 'id'});
-  }
-
-  getProducts(): Observable<any[]> {
-    return this.db.collection('products').valueChanges({idField: 'id'});
-  } */
   getPerson(): Observable<any[]>  {
     return this.db.collection('person').valueChanges({idField: 'id'} );
   }

@@ -112,12 +112,12 @@
     flex-direction: column;
     justify-content: center;
     width: 30%;
-    height: 200px;
+    height: 17vw;
     margin-top: 25px;
     margin-right: 25px;
     text-align: center;
     background: white;
-    padding: 35px;
+    padding: 10px;
     border-left: 3px solid #facf1f;
     overflow: hidden;
     box-shadow: 12px 19px 16px 0px rgba(0, 0, 0, 0.42);
@@ -199,7 +199,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .result-block-item {
     display: flex;
@@ -282,7 +282,7 @@
     line-height: 20px;
     padding: 20px;
     border-radius: 25px;
-    width: 250px;
+    width: 15vw;
     margin-right: 20px;
 }
 .form-btn {
@@ -292,7 +292,7 @@
     line-height: 20px;
     padding: 20px;
     border-radius: 25px;
-    width: 250px;
+    width: 15vw;
     text-align: center;
     background: #facf1f;
     cursor: pointer;
@@ -308,4 +308,321 @@
     font-size: 18px;
     color: #e7e4e4;
     padding-top: 30px;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1380px) {
+    .section-title h1 {
+        line-height: 100%;
+        font-size: 65px;
+    }
+    .section-title-first {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+    .section-title-second {
+        font-size: 18px;
+    }
+    .section-aboutUs {
+        padding: 60px 0px;
+    }
+    .wrap-aboutUs {
+        width: 60%;
+    }
+    .section-aboutUs-title h2 {
+        font-weight: 700;
+        line-height: 100%;
+        font-size: 30px;
+    }
+    .section-aboutUs-title p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .section-education-title h2 {
+        font-weight: 700;
+        line-height: 100%;
+        font-size: 30px;
+    }
+    .education-block-item h3 {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .education-block-item p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .education-block-item {
+        margin-top: 15px;
+    }
+    .section-education {
+        padding: 60px 0px;
+    }
+    .section-quote p {
+        font-weight: 600;
+        line-height: 80%;
+        font-size: 25px;
+    }
+    .section-result-title h2 {
+        font-weight: 700;
+        line-height: 100%;
+        font-size: 25px;
+    }
+    .block-item-normal {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .block-item-hard {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .result-block-item p {
+        font-weight: 400;
+        font-size: 12px;
+        padding: 20px;
+        width: 100%;
+    }
+    .section-form-title {
+        font-weight: 800;
+        line-height: 100%;
+        font-size: 30px;
+        padding-bottom: 35px;  
+    }
+    .section-form-block input {
+        font-size: 14px;
+        padding: 18px;
+        width: 17vw;
+        margin-right: 20px;
+    }
+    .form-btn {
+        font-weight: 700;
+        font-size: 16px;
+        padding: 20px;
+        width: 17vw;
+    }
+    .wrap-form p {
+        font-weight: 400;
+        font-size: 16px;
+        padding-top: 25px;
+    }
+    .wrap-form {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-title h1 {
+        line-height: 100%;
+        font-size: 45px;
+    }
+    .section-title-first {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .section-title-second {
+        font-size: 14px;
+    }
+    .section-aboutUs {
+        padding: 40px 0px;
+    }
+    .wrap-aboutUs {
+        width: 70%;
+    }
+    .section-aboutUs-title h2 {
+        font-weight: 700;
+        line-height: 100%;
+        font-size: 25px;
+    }
+    .section-aboutUs-title p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .section-education-title h2 {
+        font-weight: 700;
+        line-height: 100%;
+        font-size: 25px;
+    }
+    .education-block-item h3 {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    .education-block-item p {
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .education-block-item {
+        margin-top: 15px;
+    }
+    .section-education {
+        padding: 40px 0px;
+    }
+    .section-quote p {
+        font-weight: 500;
+        line-height: 100%;
+        font-size: 20px;
+    }
+    .section-result-title h2 {
+        font-weight: 500;
+        line-height: 100%;
+        font-size: 18px;
+    }
+    .block-item-normal {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .block-item-hard {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .result-block-item p {
+        font-weight: 300;
+        font-size: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+    .wrap-result {
+        width: 80%;
+    }
+    .section-form-title {
+        font-weight: 700;
+        line-height: 100%;
+        font-size: 25px;
+        padding-bottom: 30px;  
+    }
+    .section-form-block input {
+        font-size: 12px;
+        padding: 8px;
+        width: 19vw;
+        margin-right: 20px;
+    }
+    .form-btn {
+        font-weight: 700;
+        font-size: 14px;
+        padding: 8px;
+        width: 17vw;
+    }
+    .wrap-form p {
+        font-weight: 400;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .wrap-form {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .section-title h1 {
+        line-height: 100%;
+        font-size: 35px;
+    }
+    .section-title-first {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .section-title-second {
+        font-size: 10px;
+    }
+    .section-aboutUs {
+        padding: 20px 0px;
+    }
+    .wrap-aboutUs {
+        width: 80%;
+    }
+    .section-aboutUs-title h2 {
+        font-weight: 700;
+        line-height: 80%;
+        font-size: 20px;
+    }
+    .section-aboutUs-title p {
+        font-weight: 400;
+        font-size: 7px;
+        line-height: 15px;
+    }
+    .section-education-title h2 {
+        font-weight: 700;
+        line-height: 80%;
+        font-size: 20px;
+    }
+    .education-block-item h3 {
+        padding-bottom: 0px;
+        font-size: 8px;
+    }
+    .education-block-item p {
+        font-weight: 400;
+        font-size: 6px;
+    }
+    .education-block-item {
+        height: 25vw;
+        margin-top: 10px;
+    }
+    .section-education {
+        padding: 20px 0px;
+    }
+    .section-quote p {
+        font-weight: 500;
+        line-height: 100%;
+        font-size: 12px;
+        width: 50%;
+    }
+    .section-result-title {
+        padding-bottom: 20px;
+    }
+    .section-result-title h2 {
+        font-weight: 400;
+        line-height: 100%;
+        font-size: 12px;
+    }
+    .block-item-normal {
+        font-size: 8px;
+        font-weight: 500;
+        padding: 8px;
+    }
+    .block-item-hard {
+        font-size: 8px;
+        font-weight: 500;
+        padding: 8px;
+    }
+    .result-block-item p {
+        font-weight: 300;
+        font-size: 6px;
+        padding: 8px;
+        width: 100%;
+    }
+    .wrap-result {
+        width: 90%;       
+    }
+    .section-form-title {
+        font-weight: 700;
+        line-height: 100%;
+        font-size: 15px;
+        padding-bottom: 10px;  
+    }
+    .section-form-block input {
+        font-size: 8px;
+        padding: 4px;
+        width: 19vw;
+        margin-right: 20px;
+    }
+    .form-btn {
+        font-weight: 700;
+        font-size: 8px;
+        padding: 4px;
+        width: 17vw;
+    }
+    .wrap-form p {
+        font-weight: 400;
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .wrap-form {
+        width: 100%;
+    }
 }

@@ -16,18 +16,20 @@
 .footer-section {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     width: 100%;  
 }
 .footer-section-box {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .footer-logo {
     font-weight: 900;
-    font-size: 1.8rem;
+    font-size: 28px;
     color: white;
     cursor: pointer;
 }
@@ -60,7 +62,7 @@
     margin: 0;
 }
 .footer-section-box ul li {
-    font-size: 1rem;
+    font-size: 16px;
     padding: 15px 0px 0px 0px;
     color: #A4A4A4;
     cursor: pointer;
@@ -83,4 +85,68 @@
     line-height: 20px;
     color: #A4A4A4;
     padding: 80px 0px 50px 0px;
+}
+img {
+    width: 4vw;
+    height: 4vw;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1380px) {
+    .wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px 20px 0px;
+    }
+    .footer-section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;  
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-logo {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .footer-section-box p {
+        font-size: 14px;
+    }
+    .footer-section-box ul li {
+        font-size: 14px;
+    }
+    .footer-section-box h3 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .footer-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;  
+    }
+    .footer-logo {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .footer-section-box p {
+        font-size: 10px;
+    }
+    .footer-section-box ul li {
+        font-size: 10px;
+    }
+    .footer-text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 20px;
+        padding: 20px 0px 15px 0px;
+    }
+    .footer-section-box h3 {
+        font-size: 16px;
+    }
 }
