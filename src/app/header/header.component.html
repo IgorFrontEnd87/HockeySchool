@@ -1,0 +1,15 @@
+<div class="header">
+    <div class="wrap">
+        <div class="header-logo" [routerLink]='["/"]'>Школа<span> Хоккея</span></div>
+        <div class="header-nav">
+            <ul>
+                <li class="item" [routerLink]='["/"]' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">главная</li>
+                <li class="item" [routerLink]='["/center"]' routerLinkActive="active">бросковый центр</li>
+                <li class="item" [routerLink]='["/schedule"]' routerLinkActive="active">расписание</li>
+                <li class="item" [routerLink]='["/skates"]' routerLinkActive="active">заточка коньков</li>
+                <li class="item" [routerLink]='["/coach"]' routerLinkActive="active">тренеры</li>
+                <li class="item" [routerLink]='["/price"]' routerLinkActive="active">цены</li>
+            </ul>
+        </div> 
+    </div>
+</div>

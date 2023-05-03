@@ -1,0 +1,53 @@
+.section-application {
+    background: url('/assets/img/application.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.application-title {
+    width: 50%;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 12px 19px 16px 0px rgba(0, 0, 0, 0.42);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.application-title h2 {
+    font-weight: 900;
+    line-height: 150%;
+    color:rgb(168, 50, 50);
+    font-size: 35px;
+}
+.application-title h3 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8a8585;
+    padding-bottom: 50px;
+}
+.application-btn {
+    width: 30%;
+    background: #facf1f;
+    text-align: center;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .6s;
+}
+.application-btn:hover {
+    background: #bc9b17;
+}

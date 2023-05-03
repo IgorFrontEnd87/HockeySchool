@@ -1,0 +1,19 @@
+<div class="section-coach">
+    <div class="wrap-coach">
+        <div class="coach-title">
+            <h2>Ваши тренеры</h2>
+            <p><span [routerLink]='["/"]'>Главная</span> - Ваши тренеры</p>
+            <h3>У нас есть все для подготовки чемпионов</h3>
+        </div>
+        <div class="coach-block" *ngFor='let person of person'>
+            <div class="coach-block-content">
+                <img src={{person.image}} alt="">
+                <h2>{{person.name}}</h2>
+                <h3>{{person.speciality}}</h3>
+                <h3>День рождения: {{person.date}}</h3>
+                <h3>Достижения:</h3>
+                <p>{{person.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>

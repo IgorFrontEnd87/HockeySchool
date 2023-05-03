@@ -1,0 +1,92 @@
+.section-skates {
+    width: 100%;
+    background: rgb(224, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-skates {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.skates-title h2 {
+    font-weight: 900;
+    line-height: 150%;
+    color:rgb(168, 50, 50);
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.skates-title p {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    padding-bottom: 20px;
+}
+.skates-title h3 {
+    font-weight: 900;
+    line-height: 150%;
+    color:rgb(168, 50, 50);
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+span {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8a8585;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+span:hover {
+    color:rgb(168, 50, 50);
+}
+.skates-block {
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 12px 19px 16px 0px rgba(0, 0, 0, 0.42);
+    margin-bottom: 60px;
+}
+.skates-img {
+    float: left;
+    background: url('/assets/img/skates.jpg');
+    width: 30vw;
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+.skates-img-info {
+    float: right;
+    background: url('/assets/img/skates-img.jpg');
+    width: 30vw;
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+.skates-block-content h3 {
+    padding-bottom: 20px;
+}
+.skates-block-content p {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 30px;
+}
+.block-content-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.block-content-text h3 {
+    color:rgb(168, 50, 50);
+}

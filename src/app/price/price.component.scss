@@ -1,0 +1,116 @@
+.section-price {
+    width: 100%;
+    background: rgb(224, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-price {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.price-title h2 {
+    font-weight: 900;
+    line-height: 150%;
+    color:rgb(168, 50, 50);
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.price-title p {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    padding-bottom: 20px;
+}
+.price-title h3 {
+    font-weight: 900;
+    line-height: 150%;
+    color:rgb(168, 50, 50);
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.price-title-route {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8a8585;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.price-title-route:hover {
+    color:rgb(168, 50, 50);
+}
+.price-block {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 12px 19px 16px 0px rgba(0, 0, 0, 0.42);
+    margin-bottom: 50px;
+}
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 5px;
+}
+.item div {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;   
+}
+.item-title {
+    background: rgb(130, 191, 211);
+}
+.item div:nth-child(3) {
+    background: rgb(227, 231, 233);
+}
+.item div:nth-child(5) {
+    background: rgb(227, 231, 233);
+}
+.item div:nth-child(7) {
+    background: rgb(227, 231, 233);
+}
+.item div:nth-child(9) {
+    background: rgb(227, 231, 233);
+}
+.item div:nth-child(11) {
+    background: rgb(227, 231, 233);
+}
+.price {
+    color:rgb(168, 50, 50);
+    font-weight: 800;
+    padding-top: 10px;
+}
+.price-block-footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 12px 19px 16px 0px rgba(0, 0, 0, 0.42);
+    border-left: 5px solid rgb(130, 191, 211);
+}
+.price-block-footer p {
+    padding: 10px 0;
+    color:rgb(168, 50, 50);
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+}

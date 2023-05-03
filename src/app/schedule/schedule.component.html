@@ -1,0 +1,45 @@
+<div class="section-schedule">
+    <div class="wrap-schedule">
+        <div class="schedule-title">
+            <h2>Расписание тренировок</h2>
+            <p><span [routerLink]='["/"]'>Главная</span> - Расписание тренировок</p>
+            <h3>Нет ничего лучше, чем прожить жизнь в стремлении стать совершеннее.</h3>
+            <p>Уроки хоккея и подготовку учеников проводит профессиональный тренер с внушительным опытом. Тренер тщательно всматривается как на индивидуальную, так и на командную игру хоккеиста, что позволяет сформировать полноценную игру и достичь максимальных результатов.</p>
+            <p>Персональные занятия по хоккею помогают до мелочей отшлифовать технические элементы, в то время, как групповые занятия позволяют раскрыть сильные стороны каждого игрока и организовать сыгранные пятерки.</p>
+        </div>
+        <div class="schedule-block">
+            <h3>Бросковые тренировки</h3>
+            <div class="schedule-block-item">
+                <div class="item">
+                    <p class="item-title">День недели</p>
+                    <p *ngFor='let schedule of schedule'>
+                        {{schedule.day}}
+                    </p>
+                </div>
+                <div class="item">
+                    <p class="item-title">Время занятий</p>
+                    <p *ngFor='let schedule of schedule'>
+                        {{schedule.time}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="schedule-block">
+            <h3>Тренировки на развитие ОФП</h3>
+            <div class="schedule-block-item">
+                <div class="item">
+                    <p class="item-title">День недели</p>
+                    <p *ngFor='let schedule of schedule'>
+                        {{schedule.day}}
+                    </p>
+                </div>
+                <div class="item">
+                    <p class="item-title">Время занятий</p>
+                    <p *ngFor='let schedule of schedule'>
+                        {{schedule.time}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
