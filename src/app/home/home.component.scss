@@ -1,5 +1,4 @@
 /* section-title */
-
 .section-title {
     background: url('/assets/img/title.jpg');
     background-position: center;
@@ -138,7 +137,6 @@
     font-size: 14px;
     color: #8a8585;
 }
-
 
 /* section-quote */
 
@@ -309,8 +307,6 @@
     color: #e7e4e4;
     padding-top: 30px;
 }
-
-
 @media only screen and (min-width: 992px) and (max-width: 1380px) {
     .section-title h1 {
         line-height: 100%;
@@ -411,8 +407,6 @@
         width: 80%;
     }
 }
-
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section-title h1 {
         line-height: 100%;
@@ -516,8 +510,6 @@
         width: 80%;
     }
 }
-
-
 @media only screen and (max-width: 767px) {
     .section-title h1 {
         line-height: 100%;

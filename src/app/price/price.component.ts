@@ -18,15 +18,12 @@ export class PriceComponent implements OnInit {
   ngOnInit() {
     this.getPrice();
   }
-  
-
   ngOnDestroy() {
      this.priceSubscribe.unsubscribe();
   }
-
   getPrice() {
     this.priceSubscribe = this.databaseService.getPrice().subscribe((price: any) => {
       this.price = price;
     })
-}
+  }
 }

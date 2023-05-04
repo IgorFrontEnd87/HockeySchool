@@ -20,7 +20,6 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { DatabaseService } from './services/database.service';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,4 +42,4 @@ import { DatabaseService } from './services/database.service';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

@@ -8,8 +8,6 @@ import { CoachComponent } from './coach/coach.component';
 import { PriceComponent } from './price/price.component';
 import { ApplicationComponent } from './application/application.component';
 
-
-
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'center', component: CenterComponent },
@@ -18,7 +16,6 @@ const routes: Routes = [
   { path: 'coach', component: CoachComponent },
   { path: 'price', component: PriceComponent },
   { path: 'application', component: ApplicationComponent },
-  
 ];
 
 @NgModule({
@@ -27,4 +24,4 @@ const routes: Routes = [
   })],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

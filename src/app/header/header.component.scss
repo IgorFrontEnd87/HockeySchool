@@ -49,8 +49,6 @@
     color: red;
     border-bottom: 1px solid red;
 }
-
-
 @media only screen and (min-width: 992px) and (max-width: 1380px) {
     .wrap {
         display: flex;
@@ -97,7 +95,6 @@
         border-bottom: 1px solid red;
     }
 }
-
 @media only screen and (max-width: 767px) {
     .wrap {
         display: flex;

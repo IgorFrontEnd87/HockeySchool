@@ -18,15 +18,12 @@ export class ScheduleComponent implements OnInit {
   ngOnInit() {
     this.getSchedule();
   }
-  
-
   ngOnDestroy() {
      this.scheduleSubscribe.unsubscribe();
   }
-
   getSchedule() {
     this.scheduleSubscribe = this.databaseService.getSchedule().subscribe((schedule: any) => {
       this.schedule = schedule;
     })
-}
+  }
 }

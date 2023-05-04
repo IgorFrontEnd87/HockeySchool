@@ -18,15 +18,12 @@ export class CoachComponent implements OnInit {
   ngOnInit() {
     this.getPerson();
   }
-  
-
   ngOnDestroy() {
      this.personSubscribe.unsubscribe();
   }
-
   getPerson() {
     this.personSubscribe = this.databaseService.getPerson().subscribe((person: any) => {
       this.person = person;
     })
-}
+  }
 }
